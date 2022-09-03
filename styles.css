@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+ font-family: 'Outfit', serif;
+ font-size: 18px;
+ background-color: hsl(217, 54%, 11%);
+}
+
+.first-image img{
+ height: 50vh;
+ width: 20vw;
+ box-sizing: border-box;
+ border-radius: 10px;
+ overflow: hidden;
+ padding-top: 20px;
+}
+
+.second-image img{ 
+ height: 5vh;
+ width: 2vw;
+ border: 1px solid #fff;
+ border-radius: 30px;
+}
+
+.clk{
+padding-left: 90px;
+padding-top: 2px;
+}
+
+.second-image{
+padding-right: 26px;
+}
+
+.jules{
+ padding-right: 50px;
+ padding-top: 3px;
+ display: flex;
+}
+
+
+div .first-c{
+ margin-right: 5px;
+ color: hsl(215, 51%, 70%);
+}
+
+div .second-c{
+ color: hsl(0, 0%, 100%);
+}
+
+.first-image{
+ text-align: center;
+}
+
+.equi{
+ text-align: center;
+ padding-right: 130px;
+ padding-top: 15px;
+ color: hsl(0, 0%, 100%);
+ font-weight: bolder;
+}
+
+span{
+ padding-right: 140px;
+}
+
+.equi-details{
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ color: hsl(215, 51%, 70%);
+}
+
+.eth{
+ padding-left: 5px;
+ color: hsl(178, 100%, 50%);
+}
+
+.days{
+ padding-left: 2px;
+ color: hsl(215, 51%, 70%);
+}
+.flex-row{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.divider{
+ height: 1px;
+ width: 89%;
+ margin: 20px;
+ margin-bottom: 20px;
+ background-color: hsl(215, 32%, 27%);
+}
+
+.second-flex{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.container{
+ margin: auto;
+ border: 1px solid transparent;
+ border-radius: 10px;
+ background-color: hsl(216, 50%, 16%);
+ height: 88vh;
+ width: 23vw;
+ margin-top: 25px;
+}
